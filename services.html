@@ -11,79 +11,79 @@
 <style>  
   .carousel-inner > .item > img,  
   .carousel-inner > .item > a > img {  
-      width: 50%;
-	  height:50%;	  
+      width: 300px;
+	  height:200px;	  
       margin: auto;  
   }  
 </style>  
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">  
-		<div class="container-fluid">  
-			<div class="navbar-header">  
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>	
-				<a class="navbar-brand" href="#">NAD Property Consult</a>  
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">	
-				<ul class="nav navbar-nav">  
-					<li><a href="home.html">Home</a></li>  
-					<li><a href="about.html">About</a></li>  
-					<li class="active"><a href="#">Services</a></li>
-					<li><a href="our properties.html">Our Properties</a></li>
-					<li><a href="contact.html">Contact</a></li>  
-				</ul>  
-			</div>  
-		</div>
-	</nav>  
-	<div class="service-header">
-		<h1 id="service-h1"><b>OUR SERVICES</b></h1>
-	</div>
-	<div class="row">
-		<div class="col-md-6" id="ourservices" style="height:450px;">
-			<h2><b>CHECK OUR SERVICES</b></h2>
-			<P>To provide luxury houses, lands and commercial properties at affordable prices and helping our clients to make the right investment for high returns.</p>
-			<p>Other of our services include:</p>
-			<p><b>REAL ESTATE DEVELOPMENT</b></p>
-			<p><b>REAL ESTATE MARKETING AND SELLING OF PROPERTIES TO CLIENTS</b></p>
-			<p><b>MARKETING AND SELLING OF CLIENTS PROPERTIES</b></p>
-			<p><b>REAL ESTATE TRAINING AND REGISTRING OF NEW MEMBERS</b></p>
-		</div>
-		<div class="col-md-6" id="ourservices" style="height:450px;">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">  
-				<!-- Indicators -->  
-				<ol class="carousel-indicators">  
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>  
-					<li data-target="#myCarousel" data-slide-to="1"></li>  
-					<li data-target="#myCarousel" data-slide-to="2"></li>  
-				</ol>  
-			  
-				<!-- Wrapper for slides -->  
-				<div class="carousel-inner" role="listbox">  
-						<div class="item active">  
-							<center><h3>NAD HOUSING CONSULT</h3>  
-							<p>We provide nice and affordable houses.</p></center>  
-							<img id="service-img" src="pictures/bghome.jpg" alt=""/>  
-						</div>  
-						<div class="item">  
-							<center><h3>Interested in getting trained</h3>  
-							<p>Contact us as we offer trainings for interested individuals in Real Esatate for collective wealth creation.</p></center>  
-							<img id="service-img" src="pictures/features-1.png" alt=""/></br/>		
-						</div>  
-						<div class="item">  
-							<center><h3>Interested in inspection</h3>  
-							<p>Contact us for inspection to any properties of your choice which are spread across major cities in Nigeria.</p></center>  
-							<img id="service-img" src="pictures/about.jpg" alt=""/>  
-						</div>  
+	<div class="container-fluid">
+		<nav class="navbar navbar-inverse navbar-fixed-top">  
+			<div class="container-fluid">  
+				<div class="navbar-header">  
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>	
+					<a class="navbar-brand" href="#">NAD Property Consult</a>  
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">	
+					<ul class="nav navbar-nav">  
+						<li><a href="home.html">Home</a></li>  
+						<li><a href="about.html">About</a></li>  
+						<li class="active"><a href="#">Services</a></li>
+						<li><a href="our properties.html">Our Properties</a></li>
+						<li><a href="contact.html">Contact</a></li>  
+					</ul>  
 				</div>  
-			</div><!-- corousel end -->  
+			</div>
+		</nav>  
+		<div class="service-header">
+			<h1 id="service-h1"><b>OUR SERVICES</b></h1>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div id="ourservices">
+					<h2><b>CHECK OUR SERVICES</b></h2>
+					<P>To provide luxury houses, lands and commercial properties at affordable prices and helping our clients to make the right investment for high returns.</p>
+					<p>Other of our services include:</p>
+					<p><b>REAL ESTATE DEVELOPMENT</b></p>
+					<p><b>REAL ESTATE MARKETING AND SELLING OF PROPERTIES TO CLIENTS</b></p>
+					<p><b>MARKETING AND SELLING OF CLIENTS PROPERTIES</b></p>
+					<p><b>REAL ESTATE TRAINING AND REGISTRING OF NEW MEMBERS</b></p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div id="ourservices-section-two">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">  
+					  
+						<!-- Wrapper for slides -->  
+						<div class="carousel-inner" role="listbox">  
+								<div class="item active">  
+									<img id="service-img" src="pictures/bghome.jpg" alt=""/>  
+									<center><h3>NAD HOUSING CONSULT</h3>  
+									<p>We provide nice and affordable houses.</p></center>  
+								</div>  
+								<div class="item">  
+									<img id="service-img" src="pictures/features-1.png" alt=""/></br/>		
+									<center><h3>Interested in getting trained</h3>  
+									<p>Contact us as we offer trainings for interested individuals in Real Esatate for collective wealth creation.</p></center>  
+								</div>  
+								<div class="item">  
+									<img id="service-img" src="pictures/about.jpg" alt=""/>  
+									<center><h3>Interested in inspection</h3>  
+									<p>Contact us for inspection to any properties of your choice which are spread across major cities in Nigeria.</p></center>  
+								</div>  
+						</div>  
+					</div><!-- corousel end -->  
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="service-link">
+	<div class="footer-links">
 		<div class="row">
 			<div class="col-md-6">
 				<h3>Quick Link</h3>
@@ -105,7 +105,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="service-footer">
+	<div class="footer">
 		<p>copywright &copy nad 2021<br/>Design by Nehemiah Dauda</p>
 	</div>
 </body>
