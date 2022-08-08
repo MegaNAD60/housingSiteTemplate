@@ -70,8 +70,11 @@
 	font-weight: 700;
 	margin: 10px 0;
 }
+#ourservices-section-two{
+	margin-top:30px;
+}
 #service-img{
-	border-radius:50px;
+	border-radius:20px;
 	border-style:hidden;
 	border-width:4px;
 	border-color:lightgrey;
@@ -103,19 +106,19 @@
     background: linear-gradient(145deg, #e6e6e6, lightgrey);
 }
 #our-properties-btn {
-  color: #fd3800;
-  border-radius: 4px;
-  padding: 8px 25px;
-  float:right;
-  margin-right:40px;
-  font-size: 14px;
-  display: inline-block;
-  border: 2px solid #fd3800;
+	color: #fd3800;
+	border-radius: 4px;
+	padding: 8px 25px;
+	float:right;
+	margin-right:40px;
+	font-size: 14px;
+	display: inline-block;
+	border: 2px solid #fd3800;
 }
 #our-properties-btn:hover {
-  background: #fd3800;
-  color: #fff;
-  border-color: #ff4a17;
+	background: #fd3800;
+	color: #fff;
+	border-color: #ff4a17;
 }
 
 /*----------contact.html----------*/
@@ -245,6 +248,7 @@
     background:white;
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
 }
+
 /*----------footer styling----------*/
 .footer-links{
     width:100%;
@@ -264,7 +268,7 @@
 	font-weight:700;
 }
 .footer-links h4{
-	color:#fd3800;
+	color:#333;
 	font-weight:200 !important;
 }
 a{
