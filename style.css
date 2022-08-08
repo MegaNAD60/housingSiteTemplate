@@ -260,6 +260,9 @@
     background:lightgrey;
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
 }
+#ambiance-body .footer-links{
+	background:grey;
+}
 .footer-links .col-md-6{
 	margin-bottom:20px;
 }
@@ -290,7 +293,10 @@ a:hover{
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
 }
 #home .footer{
-	margin-top:250px;
+	margin-top:150px;
+}
+#ambiance-body .footer{
+	background:#333;
 }
 
 /*----------media query----------*/
