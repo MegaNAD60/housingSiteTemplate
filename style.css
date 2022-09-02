@@ -237,7 +237,7 @@
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
 }
 .ambiance-details{
-    width:90%;
+    width:95%;
     margin: 0 auto;
     border-style:double;
     border-color: #fff;
@@ -261,7 +261,8 @@
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
 }
 #ambiance-body .footer-links{
-	background:grey;
+	color:black;
+	background:lightgrey;
 }
 .footer-links .col-md-6{
 	margin-bottom:20px;
@@ -293,7 +294,7 @@ a:hover{
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
 }
 #home .footer{
-	margin-top:150px;
+	margin-top:170px;
 }
 #ambiance-body .footer{
 	background:#333;
